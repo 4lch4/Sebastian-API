@@ -1,0 +1,6 @@
+{
+  "apiPrefix": "/api/v1",
+  "name": "Sebastian-WS",
+  "port": 8080,
+  "version": "0.0.0"
+}

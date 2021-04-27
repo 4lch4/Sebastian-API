@@ -1,0 +1,40 @@
+{
+  "name": "@4lch4/marx",
+  "version": "0.0.0",
+  "description": "A middleman API for working with the Todoist API.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "predev": "dhall-to-json --file config.dhall | tee config.json",
+    "dev": "pm2 start",
+    "package": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4lch4/Marx.git"
+  },
+  "keywords": [
+    "todoist",
+    "api",
+    "koa"
+  ],
+  "author": "4lch4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4lch4/Marx/issues"
+  },
+  "homepage": "https://github.com/4lch4/Marx#readme",
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-logger": "^3.2.1",
+    "todoist-rest-api": "^1.3.4"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.1",
+    "@types/koa-logger": "^3.1.1",
+    "@types/koa__router": "^8.0.4",
+    "pm2": "^4.5.6"
+  }
+}
