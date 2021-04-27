@@ -1,7 +1,7 @@
 {
-  "name": "@4lch4/marx",
+  "name": "@4lch4/sebastian-api",
   "version": "0.0.0",
-  "description": "A middleman API for working with the Todoist API.",
+  "description": "A middleman API between Toggl, Todoist, Habitica, and any other productivity tool I can tie into to. It will serve as the gateway to various tasks I'd like to be able to do with them.",
   "main": "./dist/index.js",
   "scripts": {
     "predev": "dhall-to-json --file config.dhall | tee config.json",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/4lch4/Marx.git"
+    "url": "git+https://github.com/4lch4/Sebastian-API.git"
   },
   "keywords": [
     "todoist",
@@ -21,9 +21,9 @@
   "author": "4lch4",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/4lch4/Marx/issues"
+    "url": "https://github.com/4lch4/Sebastian-API/issues"
   },
-  "homepage": "https://github.com/4lch4/Marx#readme",
+  "homepage": "https://github.com/4lch4/Sebastian-API#readme",
   "dependencies": {
     "@koa/router": "^10.0.0",
     "koa": "^2.13.1",
