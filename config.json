@@ -2,5 +2,10 @@
   "apiPrefix": "/api/v1",
   "name": "Sebastian-WS",
   "port": 8080,
+  "toggl": {
+    "apiToken": "",
+    "baseUrl": "https://api.track.toggl.com/api/v8"
+  },
   "version": "0.0.0"
 }
+
